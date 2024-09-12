@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+import React, { useState,useContext } from "react";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+import {AuthContext} from "../Context/AuthContext"
+
+const AddProducts = ({ handleAddPro }) => {
+  // console.log("its:",handleAddPro)
+  const {logoutUser,authState} =useContext(AuthContext)
+=======
 import React, { useState } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
@@ -5,6 +15,7 @@ import Footer from "../Footer";
 
 const AddProducts = ({ handleAddPro }) => {
   // console.log("its:",handleAddPro)
+>>>>>>> 29aab3e6994cc76c77e5a90b08b6bc7ea692549f
   const [formState, setFormState] = useState({
     name: "",
     img: "",
@@ -65,6 +76,12 @@ const AddProducts = ({ handleAddPro }) => {
             <div>
               <input type="submit" value="submit" className="sub-btn"/>
             </div>
+<<<<<<< HEAD
+            <div>
+              <button onClick={logoutUser} className="logout-btn">Logout</button>
+            </div>
+=======
+>>>>>>> 29aab3e6994cc76c77e5a90b08b6bc7ea692549f
           </form>
         </div>
       </div>

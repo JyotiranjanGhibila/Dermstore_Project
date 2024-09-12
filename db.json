@@ -116,6 +116,21 @@
       "img": "https://static.thcdn.com/images/small/webp//productimg/original/10560418-1514911743023953.jpg",
       "title": "Avene Retrinal 0.1 Intensive Cream",
       "price": "₹780"
+<<<<<<< HEAD
+    },
+    {
+      "name": "UV Clear Broad",
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11370312-6934938634193226.jpg",
+      "price": 400,
+      "id": 11
+    },
+    {
+      "name": "UV Clear Broad",
+      "img": "https://static.thcdn.com/images/small/webp//productimg/original/11370312-6934938634193226.jpg",
+      "price": 400,
+      "id": 12
+=======
+>>>>>>> 29aab3e6994cc76c77e5a90b08b6bc7ea692549f
     }
   ]
 }

@@ -197,3 +197,35 @@
   width: 60%;
 }
 /* NailPolish */
+<<<<<<< HEAD
+
+/* AuthContext */
+.logout-btn{
+  width: 30%;
+  margin-top: 20px;
+  background-color: rgb(223, 86, 86);
+  border: none;
+  border-radius: 20px;
+}
+.login-page{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(165, 165, 165, 0.5),
+      rgba(167, 163, 163, 0.5)
+    ),
+    url("https://img.freepik.com/premium-vector/online-registration-sign-up-login-account-smartphone-app-user-interface-with-secure-password-mobile-application-ui-web-banner-access-cartoon-people-vector-illustration_2175-1078.jpg?w=996")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperl{
+  width: 40%;
+  padding: 20px;
+  /* background-color: whitesmoke; */
+  opacity: 70%;
+}
+=======
+>>>>>>> 29aab3e6994cc76c77e5a90b08b6bc7ea692549f
